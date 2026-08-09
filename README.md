@@ -1,8 +1,6 @@
 <h1 align="center">🎙️ Awesome Technology Podcasts</h1>
 
-<p align="center">
-  <strong>Technology moves fast. So do the conversations around it. Awesome Technology Podcasts is one place to find standout shows, discover new voices, catch the latest episodes, and stay close to the conversations shaping what comes next.</strong>
-</p>
+<p align="center"> Technology moves fast. So do the conversations around it. Awesome Technology Podcasts is one place to find standout shows, discover new voices, catch the latest episodes, and stay close to the conversations shaping what comes next. </p>
 
 [![Awesome Technology Podcasts](./Awesome%20Technology%20Podcasts.png)](https://www.awesometechnologypodcasts.com/)
 
