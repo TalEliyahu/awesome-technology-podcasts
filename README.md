@@ -8,13 +8,13 @@
 
 ## Contents
 
-- [Tech News & Industry](#tech-news-industry)
-- [Startups, Venture & Leadership](#startups-venture-leadership)
-- [AI, Data & Software](#ai-data-software)
-- [Infrastructure & Hardware](#infrastructure-hardware)
-- [Product, Design & Media](#product-design-media)
+- [Tech News & Industry](#tech-news--industry)
+- [Startups, Venture & Leadership](#startups-venture--leadership)
+- [AI, Data & Software](#ai-data--software)
+- [Infrastructure & Hardware](#infrastructure--hardware)
+- [Product, Design & Media](#product-design--media)
 - [Industry Verticals](#industry-verticals)
-- [Security, Policy & Web3](#security-policy-web3)
+- [Security, Policy & Web3](#security-policy--web3)
 - [Contributing](#contributing)
 
 ## Tech News & Industry
