@@ -14,7 +14,6 @@
 - [Industry Verticals](#industry-verticals)
 - [Security, Policy & Web3](#security-policy-web3)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Tech News & Industry
 
@@ -198,12 +197,6 @@ For a new podcast, please include:
 - The normalized cadence: Daily, Weekly, Fortnightly, Monthly, or Irregular
 - Which technology sector(s) the podcast belongs to
 - A recent episode showing publication within the past 90 days
-
-## License
-
-[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
-
-To the extent possible under law, [Tal Eliyahu](https://github.com/TalEliyahu) has waived all copyright and related or neighboring rights to this work.
 
 [play-hard-fork]: https://www.awesometechnologypodcasts.com/podcasts/hard-fork
 [play-the-vergecast]: https://www.awesometechnologypodcasts.com/podcasts/the-vergecast
