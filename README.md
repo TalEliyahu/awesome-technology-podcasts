@@ -6,14 +6,15 @@
 
 ## Contents
 
-- [Tech News & Industry](#tech-news--industry)
-- [Startups, Venture & Leadership](#startups-venture--leadership)
-- [AI, Data & Software](#ai-data--software)
-- [Infrastructure & Hardware](#infrastructure--hardware)
-- [Product, Design & Media](#product-design--media)
+- [Tech News & Industry](#tech-news-industry)
+- [Startups, Venture & Leadership](#startups-venture-leadership)
+- [AI, Data & Software](#ai-data-software)
+- [Infrastructure & Hardware](#infrastructure-hardware)
+- [Product, Design & Media](#product-design-media)
 - [Industry Verticals](#industry-verticals)
-- [Security, Policy & Web3](#security-policy--web3)
+- [Security, Policy & Web3](#security-policy-web3)
 - [Contributing](#contributing)
+- [License](#license)
 
 ## Tech News & Industry
 
@@ -198,6 +199,12 @@ For a new podcast, please include:
 - Which technology sector(s) the podcast belongs to
 - A recent episode showing publication within the past 90 days
 
+## License
+
+[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+To the extent possible under law, [Tal Eliyahu](https://github.com/TalEliyahu) has waived all copyright and related or neighboring rights to this work.
+
 [play-hard-fork]: https://www.awesometechnologypodcasts.com/podcasts/hard-fork
 [play-the-vergecast]: https://www.awesometechnologypodcasts.com/podcasts/the-vergecast
 [play-techmeme-ride-home]: https://www.awesometechnologypodcasts.com/podcasts/techmeme-ride-home
@@ -379,15 +386,15 @@ For a new podcast, please include:
 [filter-sector-climate-energy]: https://www.awesometechnologypodcasts.com/top-podcasts?sort=rank&sector=climate-energy
 [filter-sector-space-aerospace-defense]: https://www.awesometechnologypodcasts.com/top-podcasts?sort=rank&sector=space-aerospace-defense
 [filter-sector-technology-policy-society]: https://www.awesometechnologypodcasts.com/top-podcasts?sort=rank&sector=technology-policy-society
-[filter-format-commentary-analysis]: https://www.awesomecybersecuritypodcasts.com/top-podcasts?sort=rank&format=commentary-analysis
-[filter-format-technical-deep-dive]: https://www.awesomecybersecuritypodcasts.com/top-podcasts?sort=rank&format=technical-deep-dive
-[filter-format-news-briefing]: https://www.awesomecybersecuritypodcasts.com/top-podcasts?sort=rank&format=news-briefing
-[filter-format-interview]: https://www.awesomecybersecuritypodcasts.com/top-podcasts?sort=rank&format=interview
-[filter-format-panel-roundtable]: https://www.awesomecybersecuritypodcasts.com/top-podcasts?sort=rank&format=panel-roundtable
-[filter-format-case-study-analysis]: https://www.awesomecybersecuritypodcasts.com/top-podcasts?sort=rank&format=case-study-analysis
-[filter-format-narrative-storytelling]: https://www.awesomecybersecuritypodcasts.com/top-podcasts?sort=rank&format=narrative-storytelling
-[filter-format-investigative-journalism]: https://www.awesomecybersecuritypodcasts.com/top-podcasts?sort=rank&format=investigative-journalism
-[filter-format-practical-how-to]: https://www.awesomecybersecuritypodcasts.com/top-podcasts?sort=rank&format=practical-how-to
+[filter-format-commentary-analysis]: https://www.awesometechnologypodcasts.com/top-podcasts?sort=rank&format=commentary-analysis
+[filter-format-technical-deep-dive]: https://www.awesometechnologypodcasts.com/top-podcasts?sort=rank&format=technical-deep-dive
+[filter-format-news-briefing]: https://www.awesometechnologypodcasts.com/top-podcasts?sort=rank&format=news-briefing
+[filter-format-interview]: https://www.awesometechnologypodcasts.com/top-podcasts?sort=rank&format=interview
+[filter-format-panel-roundtable]: https://www.awesometechnologypodcasts.com/top-podcasts?sort=rank&format=panel-roundtable
+[filter-format-case-study-analysis]: https://www.awesometechnologypodcasts.com/top-podcasts?sort=rank&format=case-study-analysis
+[filter-format-narrative-storytelling]: https://www.awesometechnologypodcasts.com/top-podcasts?sort=rank&format=narrative-storytelling
+[filter-format-investigative-journalism]: https://www.awesometechnologypodcasts.com/top-podcasts?sort=rank&format=investigative-journalism
+[filter-format-practical-how-to]: https://www.awesometechnologypodcasts.com/top-podcasts?sort=rank&format=practical-how-to
 
 ---
 
@@ -405,7 +412,6 @@ Built with the same editorial approach as [Awesome Cybersecurity Podcasts](https
 [icon-reddit]: https://img.shields.io/badge/Reddit-FF4500?style=flat-square&logo=reddit&logoColor=white
 [icon-twitch]: https://img.shields.io/badge/Twitch-9146FF?style=flat-square&logo=twitch&logoColor=white
 
-[social-icon-web]: https://img.shields.io/badge/Web-4285F4?style=flat-square&logo=googlechrome&logoColor=white
 [icon-x]: https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white
 [icon-youtube]: https://img.shields.io/badge/YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white
 [icon-linkedin]: https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white
@@ -654,8 +660,8 @@ Built with the same editorial approach as [Awesome Cybersecurity Podcasts](https
 [social-the-energy-gang-bluesky]: https://bsky.app/profile/woodmac.com
 [social-the-energy-gang-linkedin]: https://www.linkedin.com/company/wood-mackenzie
 [social-the-energy-gang-x]: https://x.com/WoodMackenzie
-[social-the-energy-gang-youtube]: https://www.youtube.com/playlist?list=PLZWRyTnQg6RsMl1tUqU8_SY0BCqZJfz5L
-[social-the-healthtech-podcast-youtube]: https://www.youtube.com/playlist?list=PL72u8oL-ehd6k0XvA67zXZe6c3Wgz2_Kj
+[social-the-energy-gang-youtube]: https://www.youtube.com/@EnergyGang
+[social-the-healthtech-podcast-youtube]: https://www.youtube.com/@TalkingHealthTech
 [social-the-heart-of-healthcare-linkedin]: https://www.linkedin.com/company/the-heart-of-healthcare-podcast
 [social-the-heart-of-healthcare-tiktok]: https://www.tiktok.com/@theheartofhealthcare
 [social-the-heart-of-healthcare-youtube]: https://www.youtube.com/@heartofhealthcarepodcast
@@ -668,7 +674,7 @@ Built with the same editorial approach as [Awesome Cybersecurity Podcasts](https
 [social-the-product-experience-instagram]: https://www.instagram.com/mindtheproduct
 [social-the-product-experience-linkedin]: https://www.linkedin.com/company/mind-the-product
 [social-the-product-experience-x]: https://x.com/MindTheProduct
-[social-the-product-experience-youtube]: https://www.youtube.com/playlist?list=PLjOxlqbwsMUeuVVEOFF2o0QsKVYDPpiiP
+[social-the-product-experience-youtube]: https://www.youtube.com/@mtpcon
 [social-the-readout-loud-facebook]: https://www.facebook.com/statnews/
 [social-the-readout-loud-instagram]: https://www.instagram.com/statnews/
 [social-the-readout-loud-linkedin]: https://www.linkedin.com/company/stat-news/
