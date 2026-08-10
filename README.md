@@ -53,7 +53,7 @@
 | **[The Pragmatic Engineer Podcast](https://newsletter.pragmaticengineer.com/podcast)** | [▶️][play-the-pragmatic-engineer-podcast] | [![Technology Leadership, Careers & Workforce][badge-sector-technology-leadership-careers]][filter-sector-technology-leadership-careers] | [![Commentary & Analysis][badge-format-commentary-analysis]][filter-format-commentary-analysis] [![Interview][badge-format-interview]][filter-format-interview] | Weekly | **93.0** | Software engineering at Big Tech and startups, from the inside. Deepdives with experienced engineers and tech professionals who share their hard-ea... | [![Substack][icon-substack]][social-the-pragmatic-engineer-podcast-substack] |
 | **[Engineering Leadership Podcast by ELC](https://sfelc.com/podcasts)** | [▶️][play-engineering-leadership-podcast-by-elc] | [![Technology Leadership, Careers & Workforce][badge-sector-technology-leadership-careers]][filter-sector-technology-leadership-careers] | [![Commentary & Analysis][badge-format-commentary-analysis]][filter-format-commentary-analysis] [![Interview][badge-format-interview]][filter-format-interview] | Weekly | **89.8** | We share the most critical perspectives, habits & examples of great software engineering leaders to help evolve leadership in the tech industry. Jo... | [![Web][icon-web]][social-engineering-leadership-podcast-by-elc-web] |
 | **[Engineering Enablement Podcast](https://getdx.com/podcast/)** | [▶️][play-engineering-enablement-podcast] | [![Technology Leadership, Careers & Workforce][badge-sector-technology-leadership-careers]][filter-sector-technology-leadership-careers] | [![Commentary & Analysis][badge-format-commentary-analysis]][filter-format-commentary-analysis] [![Interview][badge-format-interview]][filter-format-interview] | Biweekly | **87.9** | The show focused on developer productivity and the teams and leaders dedicated to improving it. Each episode features in-depth interviews with Plat... | [![X][icon-x]][social-engineering-enablement-podcast-x] [![YouTube][icon-youtube]][social-engineering-enablement-podcast-youtube] [![LinkedIn][icon-linkedin]][social-engineering-enablement-podcast-linkedin] |
-| **[Tech Lead Journal](https://techleadjournal.dev/)** | [▶️][play-tech-lead-journal] | [![Technology Leadership, Careers & Workforce][badge-sector-technology-leadership-careers]][filter-sector-technology-leadership-careers] | [![Commentary & Analysis][badge-format-commentary-analysis]][filter-format-commentary-analysis] [![Interview][badge-format-interview]][filter-format-interview] | Weekly | **86.5** | Great technical leadership requires more than just great coding skills. It requires a variety of other skills that are not well-defined, and they a... | [![X][icon-x]][social-tech-lead-journal-x] [![YouTube][icon-youtube]][social-tech-lead-journal-youtube] [![LinkedIn][icon-linkedin]][social-tech-lead-journal-linkedin] [![Instagram][icon-instagram]][social-tech-lead-journal-instagram] [![TikTok][icon-tiktok]][social-tech-lead-journal-tiktok] [![Patreon][icon-patreon]][social-tech-lead-journal-patreon] [![GitHub][icon-github]][social-tech-lead-journal-github] |
+| **[Tech Lead Journal](https://techleadjournal.dev/)** | [▶️][play-tech-lead-journal] | [![Technology Leadership, Careers & Workforce][badge-sector-technology-leadership-careers]][filter-sector-technology-leadership-careers] | [![Commentary & Analysis][badge-format-commentary-analysis]][filter-format-commentary-analysis] [![Interview][badge-format-interview]][filter-format-interview] | Weekly | **86.5** | Great technical leadership requires more than just great coding skills. It requires a variety of other skills that are not well-defined, and they a... | [![X][icon-x]][social-tech-lead-journal-x] [![YouTube][icon-youtube]][social-tech-lead-journal-youtube] [![LinkedIn][icon-linkedin]][social-tech-lead-journal-linkedin] [![Instagram][icon-instagram]][social-tech-lead-journal-instagram] [![TikTok][icon-tiktok]][social-tech-lead-journal-tiktok] [![Patreon][icon-patreon]][social-tech-lead-journal-patreon] [![Web][icon-web]][social-tech-lead-journal-web] |
 | **[Level-up Engineering](https://level-up-engineering.captivate.fm/)** | [▶️][play-level-up-engineering] | [![Technology Leadership, Careers & Workforce][badge-sector-technology-leadership-careers]][filter-sector-technology-leadership-careers] | [![Commentary & Analysis][badge-format-commentary-analysis]][filter-format-commentary-analysis] [![Interview][badge-format-interview]][filter-format-interview] | Biweekly | **85.8** | Level-Up Engineering brings you actionable management insights straight from top tech leaders. Each episode tackles real challenges faced by engine... | [![Web][icon-web]][social-level-up-engineering-web] |
 | **[Technovation with Peter High](https://www.metisstrategy.com/podcast-technovation/)** | [▶️][play-technovation-with-peter-high] | [![Enterprise Technology & Digital Transformation][badge-sector-enterprise-technology]][filter-sector-enterprise-technology] | [![Interview][badge-format-interview]][filter-format-interview] [![Commentary & Analysis][badge-format-commentary-analysis]][filter-format-commentary-analysis] | Irregular | **91.8** | Twice-weekly conversations with top executives and thought leaders at the intersection of business, technology, and innovation. Each episode of Tec... | [![X][icon-x]][social-technovation-with-peter-high-x] [![YouTube][icon-youtube]][social-technovation-with-peter-high-youtube] [![LinkedIn][icon-linkedin]][social-technovation-with-peter-high-linkedin] |
 | **[CXOTalk](https://www.cxotalk.com/)** | [▶️][play-cxotalk] | [![Enterprise Technology & Digital Transformation][badge-sector-enterprise-technology]][filter-sector-enterprise-technology] | [![Interview][badge-format-interview]][filter-format-interview] [![Commentary & Analysis][badge-format-commentary-analysis]][filter-format-commentary-analysis] | Biweekly | **89.5** | C-Suite Conversations on AI and Strategy. Join industry analyst Michael Krigsman for unfiltered discussions with the leaders shaping the future of ... | [![Web][icon-web]][social-cxotalk-web] |
@@ -424,7 +424,7 @@ Built with the same editorial approach as [Awesome Cybersecurity Podcasts](https
 [social-9to5mac-happy-hour-instagram]: https://instagram.com/9to5mac/
 [social-9to5mac-happy-hour-linkedin]: https://www.linkedin.com/company/9to5mac.com
 [social-9to5mac-happy-hour-x]: https://www.x.com/9to5mac
-[social-9to5mac-happy-hour-youtube]: https://www.youtube.com/channel/UChjRM_qQAaOAiLNbOGbYcRA
+[social-9to5mac-happy-hour-youtube]: https://www.youtube.com/@9to5mac
 [social-accidental-tech-podcast-x]: https://x.com/atpfm
 [social-accidental-tech-podcast-mastodon]: https://mastodon.social/@atpfm
 [social-acquired-linkedin]: https://www.linkedin.com/company/acquired-fm/
@@ -464,7 +464,7 @@ Built with the same editorial approach as [Awesome Cybersecurity Podcasts](https
 [social-columbia-energy-exchange-linkedin]: https://www.linkedin.com/school/columbiauenergy/
 [social-columbia-energy-exchange-threads]: https://www.threads.net/@columbiauenergy
 [social-columbia-energy-exchange-x]: https://x.com/ColumbiaUEnergy
-[social-columbia-energy-exchange-youtube]: https://www.youtube.com/channel/UC5vAhRqHufSZNB9coZG5t6Q
+[social-columbia-energy-exchange-youtube]: https://www.youtube.com/@ColumbiaEnergy
 [social-connected-bluesky]: https://bsky.app/profile/relay.fm
 [social-connected-threads]: https://www.threads.net/@relaypodcasts
 [social-connected-youtube]: https://www.youtube.com/@relayconnected
@@ -489,13 +489,13 @@ Built with the same editorial approach as [Awesome Cybersecurity Podcasts](https
 [social-devops-paradox-bluesky]: https://bsky.app/profile/devopsparadox.bsky.social
 [social-devops-paradox-linkedin]: https://www.linkedin.com/company/devopsparadox
 [social-devops-paradox-x]: https://x.com/DevOpsParadox
-[social-devops-paradox-youtube]: https://www.youtube.com/channel/UCep3JLryy3YJ9N-nduYW4_w
+[social-devops-paradox-youtube]: https://www.youtube.com/@DevOpsParadox
 [social-dwarkesh-podcast-substack]: https://dwarkesh.substack.com/
 [social-embedded-facebook]: https://www.facebook.com/embeddedfm
 [social-embedded-instagram]: https://www.instagram.com/embeddedpodcast
 [social-embedded-linkedin]: https://www.linkedin.com/company/embeddedfm
 [social-embedded-patreon]: https://www.patreon.com/embedded
-[social-embedded-youtube]: https://www.youtube.com/channel/UCh13zUE8oL17-lHUJ_UiCOg
+[social-embedded-youtube]: https://www.youtube.com/@embeddedfm
 [social-empire-linkedin]: https://www.linkedin.com/company/the-blockworks-group
 [social-empire-x]: https://x.com/blockworks
 [social-empire-youtube]: https://www.youtube.com/@BlockworksHQ
@@ -524,7 +524,7 @@ Built with the same editorial approach as [Awesome Cybersecurity Podcasts](https
 [social-it-visionaries-instagram]: https://instagram.com/themissionhq/
 [social-it-visionaries-linkedin]: https://linkedin.com/company/themission/
 [social-it-visionaries-x]: https://x.com/TheMissionHQ
-[social-it-visionaries-youtube]: https://www.youtube.com/channel/UCuqDOYEMl3lVR_DIoQp6g3w
+[social-it-visionaries-youtube]: https://www.youtube.com/@ITVisionaries
 [social-kinda-funny-gamescast-patreon]: https://www.patreon.com/kindafunnygames
 [social-kinda-funny-gamescast-twitch]: https://www.twitch.tv/kindafunnygames
 [social-kinda-funny-gamescast-youtube]: https://www.youtube.com/@kindafunnygames/streams
@@ -553,12 +553,12 @@ Built with the same editorial approach as [Awesome Cybersecurity Podcasts](https
 [social-one-knight-in-product-youtube]: https://www.youtube.com/@oneknightinproduct
 [social-pivot-facebook]: https://www.facebook.com/voxmediainc
 [social-pivot-linkedin]: https://www.linkedin.com/company/vox-media-inc-
-[social-pivot-x]: https://x.com/@voxmediapods
+[social-pivot-x]: https://x.com/voxmediapods
 [social-product-thinking-linkedin]: https://www.linkedin.com/company/11044103/admin/
 [social-product-thinking-x]: https://x.com/produxlabs
 [social-research-vr-instagram]: https://instagram.com/azadux
 [social-research-vr-linkedin]: https://www.linkedin.com/in/azadbalabanian/
-[social-research-vr-youtube]: https://www.youtube.com/channel/UCpV5sv085GcESOa8ZQmrXcQ
+[social-research-vr-youtube]: https://www.youtube.com/@ResearchVR
 [social-robot-talk-facebook]: https://www.facebook.com/robottalkpod/
 [social-robot-talk-instagram]: https://www.instagram.com/robottalkpod/
 [social-robot-talk-linkedin]: https://www.linkedin.com/company/robottalkpod
@@ -616,7 +616,7 @@ Built with the same editorial approach as [Awesome Cybersecurity Podcasts](https
 [social-syntax-x]: https://x.com/syntaxfm
 [social-syntax-youtube]: https://www.youtube.com/@syntaxfm
 [social-talking-healthtech-youtube]: https://www.youtube.com/@talkinghealthtech/
-[social-tech-lead-journal-github]: https://github.com/dillonzq/LoveIt
+[social-tech-lead-journal-web]: https://techleadjournal.dev/
 [social-tech-lead-journal-instagram]: https://www.instagram.com/techleadjournal
 [social-tech-lead-journal-linkedin]: https://linkedin.com/company/techleadjournal
 [social-tech-lead-journal-patreon]: https://www.patreon.com/bePatron?u=41114537
@@ -645,7 +645,7 @@ Built with the same editorial approach as [Awesome Cybersecurity Podcasts](https
 [social-the-chip-observer-x]: https://x.com/techinsightsinc
 [social-the-chip-observer-youtube]: https://www.youtube.com/@TechInsights/podcasts
 [social-the-cloud-pod-linkedin]: https://www.linkedin.com/company/thecloudpod
-[social-the-cloud-pod-youtube]: https://www.youtube.com/channel/UCySg2OyO6KNIqraYoP3CoCQ
+[social-the-cloud-pod-youtube]: https://www.youtube.com/@TheCloudPod
 [social-the-cognitive-revolution-facebook]: https://www.facebook.com/ghost
 [social-the-cognitive-revolution-linkedin]: https://www.linkedin.com/in/nathanlabenz/
 [social-the-cognitive-revolution-x]: https://x.com/labenz
@@ -662,7 +662,7 @@ Built with the same editorial approach as [Awesome Cybersecurity Podcasts](https
 [social-the-hedge-substack]: https://ziklagdispatches.substack.com/
 [social-the-official-saastr-podcast-facebook]: https://www.facebook.com/SaaStr/
 [social-the-official-saastr-podcast-x]: https://x.com/saastr
-[social-the-official-saastr-podcast-youtube]: https://www.youtube.com/channel/UCwOILzAcxK5CM2M7oRBuWSg
+[social-the-official-saastr-podcast-youtube]: https://www.youtube.com/@saastr
 [social-the-pragmatic-engineer-podcast-substack]: https://pragmaticengineer.substack.com/
 [social-the-product-experience-instagram]: https://www.instagram.com/mindtheproduct
 [social-the-product-experience-linkedin]: https://www.linkedin.com/company/mind-the-product
@@ -677,7 +677,7 @@ Built with the same editorial approach as [Awesome Cybersecurity Podcasts](https
 [social-the-robot-report-podcast-instagram]: https://instagram.com/therobotreport
 [social-the-robot-report-podcast-linkedin]: https://www.linkedin.com/company/the-robot-report
 [social-the-robot-report-podcast-x]: https://x.com/SteveCrowe
-[social-the-robot-report-podcast-youtube]: https://www.youtube.com/channel/UCFvPK74I5Hd5eVzZ_5t6FbQ/videos
+[social-the-robot-report-podcast-youtube]: https://www.youtube.com/@TheRobotReport
 [social-the-twiml-ai-podcast-facebook]: https://www.facebook.com/twimlai
 [social-the-twiml-ai-podcast-instagram]: https://www.instagram.com/twimlai/
 [social-the-twiml-ai-podcast-linkedin]: https://www.linkedin.com/company/twimlai
@@ -695,7 +695,7 @@ Built with the same editorial approach as [Awesome Cybersecurity Podcasts](https
 [social-this-week-in-startups-linkedin]: https://www.linkedin.com/company/this-week-in-startups
 [social-this-week-in-startups-tiktok]: https://www.tiktok.com/@thisweekinstartups
 [social-this-week-in-startups-x]: https://x.com/TWiStartups
-[social-this-week-in-startups-youtube]: https://www.youtube.com/@ThisWeekinAIPodcast
+[social-this-week-in-startups-youtube]: https://www.youtube.com/@ThisWeekInStartups
 [social-this-week-in-tech-facebook]: https://www.facebook.com/TWiTNetwork/
 [social-this-week-in-tech-instagram]: https://www.instagram.com/twit.tv/
 [social-this-week-in-tech-x]: https://x.com/TWiT
