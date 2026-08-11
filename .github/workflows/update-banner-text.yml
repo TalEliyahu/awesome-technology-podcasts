@@ -1,0 +1,70 @@
+name: Update banner subtitle
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/update-banner-text.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  update-banner:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Download edited banner
+        env:
+          BANNER_URL: >-
+            https://design-manipulation-download.canva.com/2dc0ad92-aa61-4b39-92a7-df8289c252b0/0000-2256815782481875165.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH53ATLMYK%2F20260811%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260811T060242Z&X-Amz-Expires=40510&X-Amz-Signature=6fe4133f31f86b008fd5e18e6e99634134ec86ffaad9f949e8a5253528ebf4f8&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Tue%2C%2011%20Aug%202026%2017%3A17%3A52%20GMT
+        run: |
+          set -euo pipefail
+          curl --fail --location --retry 3 --retry-delay 2 \
+            "$BANNER_URL" \
+            --output /tmp/updated-banner.png
+
+      - name: Validate image
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import struct
+
+          image = Path("/tmp/updated-banner.png")
+          data = image.read_bytes()
+          if len(data) < 24 or data[:8] != b"\x89PNG\r\n\x1a\n":
+              raise SystemExit("Downloaded file is not a valid PNG")
+
+          width, height = struct.unpack(">II", data[16:24])
+          if (width, height) != (1200, 630):
+              raise SystemExit(f"Unexpected dimensions: {width}x{height}")
+          if len(data) < 100_000:
+              raise SystemExit(f"Image file is unexpectedly small: {len(data)} bytes")
+
+          print(f"Validated {width}x{height} PNG ({len(data)} bytes)")
+          PY
+
+      - name: Replace image and remove temporary workflow
+        run: |
+          set -euo pipefail
+          mv /tmp/updated-banner.png "Awesome Technology Podcasts.png"
+          rm ".github/workflows/update-banner-text.yml"
+
+      - name: Commit updated banner
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "Awesome Technology Podcasts.png" ".github/workflows/update-banner-text.yml"
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "Update banner subtitle"
+          git push origin HEAD:main
