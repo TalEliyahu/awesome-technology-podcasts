@@ -20,7 +20,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Download edited banner
+      - name: Download edited subtitle render
         env:
           BANNER_URL: >-
             https://design-manipulation-download.canva.com/2dc0ad92-aa61-4b39-92a7-df8289c252b0/0000-2256815782481875165.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH53ATLMYK%2F20260811%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260811T060242Z&X-Amz-Expires=40510&X-Amz-Signature=6fe4133f31f86b008fd5e18e6e99634134ec86ffaad9f949e8a5253528ebf4f8&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Tue%2C%2011%20Aug%202026%2017%3A17%3A52%20GMT
@@ -28,26 +28,64 @@ jobs:
           set -euo pipefail
           curl --fail --location --retry 3 --retry-delay 2 \
             "$BANNER_URL" \
-            --output /tmp/updated-banner.png
+            --output /tmp/edited-banner-preview.png
 
-      - name: Validate image
+      - name: Composite revised subtitle onto original image
         run: |
+          set -euo pipefail
+          python -m pip install --quiet pillow
           python - <<'PY'
           from pathlib import Path
-          import struct
+          from PIL import Image, ImageFilter
 
-          image = Path("/tmp/updated-banner.png")
-          data = image.read_bytes()
-          if len(data) < 24 or data[:8] != b"\x89PNG\r\n\x1a\n":
-              raise SystemExit("Downloaded file is not a valid PNG")
+          original_path = Path("Awesome Technology Podcasts.png")
+          preview_path = Path("/tmp/edited-banner-preview.png")
+          output_path = Path("/tmp/updated-banner.png")
 
-          width, height = struct.unpack(">II", data[16:24])
-          if (width, height) != (1200, 630):
-              raise SystemExit(f"Unexpected dimensions: {width}x{height}")
-          if len(data) < 100_000:
-              raise SystemExit(f"Image file is unexpectedly small: {len(data)} bytes")
+          original = Image.open(original_path).convert("RGB")
+          preview = Image.open(preview_path).convert("RGB")
 
-          print(f"Validated {width}x{height} PNG ({len(data)} bytes)")
+          if original.size != (1200, 630):
+              raise SystemExit(f"Unexpected original dimensions: {original.size}")
+          if preview.size != (600, 315):
+              raise SystemExit(f"Unexpected edited preview dimensions: {preview.size}")
+
+          # The editable preview is rendered at half size. Scale it to the original
+          # canvas, sharpen it, and copy only the subtitle region so every other
+          # pixel in the repository artwork remains from the original image.
+          scaled = preview.resize(original.size, Image.Resampling.LANCZOS)
+          scaled = scaled.filter(
+              ImageFilter.UnsharpMask(radius=0.9, percent=125, threshold=1)
+          )
+
+          subtitle_box = (125, 495, 630, 542)
+          subtitle_patch = scaled.crop(subtitle_box)
+
+          width, height = subtitle_patch.size
+          feather = 4
+          mask = Image.new("L", (width, height), 255)
+          pixels = mask.load()
+          for y in range(height):
+              for x in range(width):
+                  distance = min(x, y, width - 1 - x, height - 1 - y)
+                  if distance < feather:
+                      pixels[x, y] = round(255 * distance / feather)
+
+          result = original.copy()
+          result.paste(subtitle_patch, subtitle_box[:2], mask)
+          result.save(output_path, format="PNG", optimize=True)
+
+          if result.size != (1200, 630):
+              raise SystemExit(f"Unexpected output dimensions: {result.size}")
+          if output_path.stat().st_size < 100_000:
+              raise SystemExit(
+                  f"Output is unexpectedly small: {output_path.stat().st_size} bytes"
+              )
+
+          print(
+              f"Created {result.width}x{result.height} banner "
+              f"({output_path.stat().st_size} bytes)"
+          )
           PY
 
       - name: Replace image and remove temporary workflow
