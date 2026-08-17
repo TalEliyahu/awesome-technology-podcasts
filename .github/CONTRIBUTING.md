@@ -22,7 +22,7 @@ Thanks for helping build the best list of technology podcasts!
 Follow the existing table format:
 
 ```
-| **[Podcast Name](https://website.com/)** | [▶️][play-slug] | [![Sector][badge-sector-slug]][filter-sector-slug] | [![Format][badge-format-slug]][filter-format-slug] | Weekly | **85.0** | One-sentence description. | [![X][icon-x]][social-slug-x] |
+| **[Podcast Name](https://website.com/)** | [▶️][play-slug] | [![Sector][badge-sector-slug]][filter-sector-slug] | [![Format][badge-format-slug]][filter-format-slug] | Weekly | Host Name | 45 min | One-sentence description. | [![X][icon-x]][social-slug-x] |
 ```
 
 ## Questions?
